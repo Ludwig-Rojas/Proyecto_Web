@@ -1,0 +1,46 @@
+body{
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section table{
+    width: 100%;
+}
+section table h4{
+    text-align: center;
+    font-size: 24px;
+    color: #00d2ff;
+    margin: 5px;
+}
+section table p{
+    text-align: center;
+    font-size: 15px;
+    color: #c4c4cc;
+    margin: 5px;
+}
+section table img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+table{
+    border-color: #00d2ff;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+th, td{
+    padding: 6px;
+}
+h1{
+    font-size: 14px;
+    color: #00d2ff;
+    margin: 5px;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}

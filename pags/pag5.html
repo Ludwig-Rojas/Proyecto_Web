@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina 5 - Clima</title>
+    <link rel="stylesheet" href="../css/estilo_pag5.css">
+</head>
+<body>
+    <section>
+        <div class="rv-clima-box">
+            <h1>CONSULTA EL CLIMA</h1>
+            <form onsubmit="return false;">
+                <input type="text" id="rvCiudad" placeholder="Ej: La Paz, Cochabamba..." class="rv-input-text">
+                <button type="button" class="rv-btn-consultar" onclick="rvObtenerClima()">Consultar</button>
+            </form>
+        </div>
+        <div id="rvResultadoClima"></div>
+    </section>
+    <script src="../js/java3.js"></script>
+</body>
+</html>
